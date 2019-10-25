@@ -1,4 +1,4 @@
-package com.sunchildapps.pruebavalid.service.track
+package com.sunchildapps.pruebavalid.service.response.track
 
 data class TrackResponse(
     val name: String,
