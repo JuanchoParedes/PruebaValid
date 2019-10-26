@@ -1,7 +1,8 @@
-package com.sunchildapps.pruebavalid
+package com.sunchildapps.pruebavalid.mvp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.sunchildapps.pruebavalid.R
 
 class MainActivity : AppCompatActivity() {
 
