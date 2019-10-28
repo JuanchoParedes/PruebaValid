@@ -7,5 +7,6 @@ import androidx.room.PrimaryKey
 data class Artist(
     val name: String,
     val listeners: Long? = null,
+    val url: String,
     @PrimaryKey val mbid: String
 )

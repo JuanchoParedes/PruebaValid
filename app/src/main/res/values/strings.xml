@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">PruebaValid</string>
+    <string name="listeners">Listeners:</string>
+    <string name="mbid">MbId</string>
+    <string name="error_message">Opps,something went wrong</string>
 </resources>

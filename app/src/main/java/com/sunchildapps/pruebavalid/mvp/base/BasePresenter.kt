@@ -2,7 +2,7 @@ package com.sunchildapps.pruebavalid.mvp.base
 
 import java.lang.ref.WeakReference
 
-open class BasePresenter<P : MvpView> : MvpPresenter<P> {
+abstract class BasePresenter<P : MvpView> : MvpPresenter<P> {
     private var viewReference: WeakReference<P>? = null
 
     override fun onAttach(view: P) {
@@ -10,7 +10,7 @@ open class BasePresenter<P : MvpView> : MvpPresenter<P> {
     }
 
     override fun onResume() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+
     }
 
     override fun onDetach() {
